@@ -14,7 +14,9 @@ Set-Variable -name AWS_SECRET_ACCESS_KEY -value YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
 
 Refer to https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/set-variable?view=powershell-7.5 for setting variables in PowerShell 
 
-### Step 1: Create the configuration file for Packer
+### 1. Create the configuration file for Packer to create an AMI with Terraform
+
+This creates an Amazon Linux AMI with Terraform installed.
 
 Create a HCL file for configuring all the parameters and save it as "aws-linux-terraform.pkr.hcl" [Packer Configuration File](https://github.com/kiranaradhya-git/aws-minicapstone-week1-km/blob/main/TerraformEnvironment/aws-linux-terraform.pkr.hcl)
 
@@ -68,9 +70,11 @@ build {
 
 ```
 
-## Step 2 : Execute the packer commands (In the same PowerShell Window where you set the Environment)
 
-- Run the below command in order to create the machine image
+
+**Execute the packer commands (In the same PowerShell Window where you set the Environment)**
+
+- Run the below command to create the machine image
 
  - Initialize Packer
 ```
@@ -96,7 +100,7 @@ packer.exe build aws-linux-terraform.pkr.hcl
 
 
 
-## Step 3 Verify the AMI
+### 2. Verify the AMI
 
 After successful execution, the new AMI will be available in the AWS EC2 AMI Dashboard.
 
@@ -107,7 +111,7 @@ After successful execution, the new AMI will be available in the AWS EC2 AMI Das
 
 
 
-### Step3 : Provision EC2 Instance using the AMI to use your Terraform Environment 
+### **Provision EC2 Instance using the AMI to use your Terraform Environment**
 
 
 
@@ -147,9 +151,9 @@ In the AWS console, from the navigation menu, select EC2. You should see your ma
 
 ![image](https://github.com/user-attachments/assets/538d04fb-e89a-4edd-a7bf-d700ca278665)
 
-### 4. Testing if Terraform Installed and working fine
+### 3. Testing if Terraform is Installed and working fine
 
-***4.1 Run following command to test Terrafom in installed***
+***3.1 Run following command to test Terrafom in installed***
 
 ```
 terraform -v
@@ -157,7 +161,7 @@ terraform -v
 
 ![image](https://github.com/user-attachments/assets/36d4ff8a-b3af-4dea-8a57-649c1398246b)
 
-#### 4.2 Test Provision Simple AWS Virtual Machine
+#### 3.2 Test Provision Simple AWS Virtual Machine
 
 ***a. Clone the below Github Repo on to Newly deployed Terraform Host***
 
@@ -191,7 +195,44 @@ You should see the VM created with the name **" Terraform-Test Provision"** unde
 
 ![image](https://github.com/user-attachments/assets/e609a7b6-4243-4c47-92f6-8537c4d1771b)
 
+### 4. Web Site With Modules
+
+***a. Clone the below Github Repo on to Newly deployed Terraform Host***
+
+
+
+```
+ git clone https://github.com/kiranaradhya-git/aws-minicapstone-week1-km.git
+```
+
+ ```
+ cd aws-minicapstone-week1-km/4-wesite-with-modules/kiran-muddaiah-website
+ ```
+
+
+
+***b. Run Terraform commands to do Tes Virtual Machines***
+
+   ```
+     terraform init
+   ```
+
+      terrfrom plan
+
+```
+  terrafom apply -auto-approve
+```
+
+
+
+***c. Verify the website build***
+
+
+
+
+
 ---
+
 
 ## Optional References
 
