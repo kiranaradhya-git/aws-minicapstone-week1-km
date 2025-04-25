@@ -100,7 +100,8 @@ packer.exe build aws-linux-terraform.pkr.hcl
 
 After successful execution, the new AMI will be available in the AWS EC2 AMI Dashboard.
 
-![image-20250425170553452](C:\Users\kmuddaiah\AppData\Roaming\Typora\typora-user-images\image-20250425170553452.png)
+
+![image](https://github.com/user-attachments/assets/4cefa789-f33d-4844-913e-6d5ef71a043e)
 
 
 
@@ -144,7 +145,8 @@ In the AWS console, from the navigation menu, select EC2. You should see your ma
 
 
 
-![image-20250425180901088](C:\Users\kmuddaiah\AppData\Roaming\Typora\typora-user-images\image-20250425180901088.png)
+![image](https://github.com/user-attachments/assets/538d04fb-e89a-4edd-a7bf-d700ca278665)
+
 
 
 
