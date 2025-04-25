@@ -211,7 +211,7 @@ You should see the VM created with the name **" Terraform-Test Provision"** unde
 
 
 
-***b. Run Terraform commands to do Tes Virtual Machines***
+***b. Run Terraform commands to provision Web Servers***
 
    ```
      terraform init
