@@ -159,6 +159,7 @@ In the AWS console, from the navigation menu, select EC2. You should see your ma
 4.2 Test Provision Simple AWS Virtual Machine
 
     a. Clone the below Github Repo on to Newly deployed Terraform Host
+    
      ```
      git clone https://github.com/kiranaradhya-git/aws-minicapstone-week1-km.git
      ```
