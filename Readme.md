@@ -164,7 +164,20 @@ In the AWS console, from the navigation menu, select EC2. You should see your ma
      ```
 
      ```
-     cd aws-minicapstone-week1-km/3-Testing
+     cd aws-minicapstone-week1-km/3-Testing/
+     ```
+
+     b. Run Terraform commands to do Tes Virtual Machines
+
+         ```
+         terraform init
+         ```
+         ```
+         terraform plan
+         ```
+         ```
+         terraform apply -auto-approve
+         ```
     
 
 ![image](https://github.com/user-attachments/assets/e609a7b6-4243-4c47-92f6-8537c4d1771b)
