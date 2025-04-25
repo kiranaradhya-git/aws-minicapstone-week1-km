@@ -147,7 +147,13 @@ In the AWS console, from the navigation menu, select EC2. You should see your ma
 
 ![image](https://github.com/user-attachments/assets/538d04fb-e89a-4edd-a7bf-d700ca278665)
 
+4. Testing if Terraform Installed and working fine, run following command
 
+   ```
+   terraform -v
+   ```
+   
+![image](https://github.com/user-attachments/assets/36d4ff8a-b3af-4dea-8a57-649c1398246b)
 
 
 ---
