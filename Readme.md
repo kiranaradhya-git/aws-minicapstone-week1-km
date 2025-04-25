@@ -152,7 +152,10 @@ In the AWS console, from the navigation menu, select EC2. You should see your ma
 
 ---
 
-### Results of Packer Execution
+## Optional References
+
+
+### Packer Execution Logs
 
 ```
 ==> Builds finished but no artifacts were created.

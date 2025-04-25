@@ -30,9 +30,6 @@ build {
   ]
 
   provisioner "shell" {
-    environment_vars = [
-      "FOO=hello world",
-    ]
     inline = [
       "echo Installing Terrform",
       "sleep 30",
