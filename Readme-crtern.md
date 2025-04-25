@@ -144,6 +144,10 @@ In the AWS console, from the navigation menu, select EC2. You should see your ma
 
 
 
+![image-20250425180901088](C:\Users\kmuddaiah\AppData\Roaming\Typora\typora-user-images\image-20250425180901088.png)
+
+
+
 ---
 
 ### Results of Packer Execution
