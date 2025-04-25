@@ -4,6 +4,6 @@ resource "aws_instance" "vm" {
   vpc_security_group_ids = [aws_security_group.allow-http.id, aws_security_group.allow-ssh.id]
 
    tags = {
-    Name = "Terraform-Environment"
+    Name = "Terraform-Host"
   }
 }
