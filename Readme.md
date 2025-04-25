@@ -16,7 +16,7 @@ Refer to https://learn.microsoft.com/en-us/powershell/module/microsoft.powershel
 
 ### Step 1: Create the configuration file for Packer
 
-Create a HCL file for configuring all the parameters and save it as "aws-linux-terraform.pkr.hcl"
+Create a HCL file for configuring all the parameters and save it as "aws-linux-terraform.pkr.hcl" [Packer Configuration](https://github.com/kiranaradhya-git/aws-minicapstone-week1-km/blob/main/TerraformEnvironment/aws-linux-terraform.pkr.hcl)
 
 ```
 packer {
