@@ -227,6 +227,7 @@ You should see the VM created with the name **" Terraform-Test Provision"** unde
 
 ***c. Verify the website build***
 
+![image](https://github.com/user-attachments/assets/622c2399-8510-4df0-998f-de1edab1188e)
 
 
 
