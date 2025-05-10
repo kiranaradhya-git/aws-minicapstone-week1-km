@@ -1,6 +1,7 @@
 
 
-### Pre- Requisites
+### Pre-Requisites
+
 
 - Install Packer on Windows Server
 - Set the Variables for AWS_ACCESS_KEY_ID & AWS_SECRET_ACCESS_KEY
